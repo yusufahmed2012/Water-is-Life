@@ -1,0 +1,117 @@
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f9ff;
+    color: #003366;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+
+h1 {
+    text-align: center;
+    color: #0077cc;
+    margin-bottom: 20px;
+}
+
+
+p, h3 {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: auto;  
+    margin-right: auto;
+}
+figcaption {
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+b {
+    display: block;
+    font-size: 1.3em;
+    color: #005599;
+    margin: 25px auto 10px;
+    max-width: 800px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: disc;
+    background-color: #e6f4fa;
+    padding: 15px 25px;
+    margin: 0 auto 20px;
+    border-left: 5px solid #0099cc;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Make the page responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    ul {
+        padding: 10px 15px;
+    }
+}
+/* Quote styling */
+.quote-box {
+    background-color: #d0f0ff;
+    border-left: 5px solid #0077cc;
+    padding: 20px;
+    margin: 40px auto 20px;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.quote {
+    font-style: italic;
+    font-size: 1.2em;
+    color: #004466;
+    text-align: center;
+}
+
+.author {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-style: normal;
+    color: #006699;
+}
+/* Footer styling */
+.site-footer {
+    background-color: #0863a5;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 1em;
+    border-top: 3px solid #053151;
+    font-style: italic;
+}
